@@ -1,10 +1,17 @@
-<select name="selectAudio" id="selectAudio">
-  <ng-container *ngFor="let source of sources">
-    <audio controls preload="metadata">
-      <source [src]="source" type="audio/mpeg"/>
-    </audio>
-  </ng-container>
-</select>
-<!-- <audio controls>
-  <source [src]="source" type="audio/mpeg" />
-</audio> -->
+<div class="flex flex-col m-10">
+  <img src="assets/x6zxsc3b.bmp" alt="" class="max-w-lg w-full mx-auto" />
+  <form
+    class="flex flex-col mx-auto mb-20 w-2/4 min-w-max"
+    (ngSubmit)="onSubmit()"
+  >
+    <mat-form-field class="mt-10">
+      <mat-label>Bitte gib deinen Code hier ein.</mat-label>
+      <input matInput [formControl]="code" />
+    </mat-form-field>
+    <button matButton class="button" type="submit" (click)="onSubmit()">
+      Los gehts!
+    </button>
+  </form>
+
+  <router-outlet></router-outlet>
+</div>

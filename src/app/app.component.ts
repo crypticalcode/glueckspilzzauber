@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
+import { FormControl } from '@angular/forms';
+import { Router } from '@angular/router';
 
-const increment = (x: number) => ++x;
-const resource = (x: number) => `../assets/Minutengeschichte${x}.mp3`;
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,5 +9,14 @@ const resource = (x: number) => `../assets/Minutengeschichte${x}.mp3`;
 })
 export class AppComponent {
   title = 'Glückspilzzauber';
-  sources = [...Array(10).keys()].map(increment).map(resource);
+
+  code = new FormControl('');
+
+  constructor(private _router: Router) {}
+
+  onSubmit() {
+    if (this.code.value === '55555') {
+      this._router.navigate(['podcast']);
+    }
+  }
 }

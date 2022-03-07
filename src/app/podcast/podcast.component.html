@@ -1,0 +1,12 @@
+<div class="flex flex-col gap-4">
+  <ng-container *ngFor="let source of sources; let i = index">
+    <ng-container *ngIf="i < 3 || showMore">
+      <audio controls preload="metadata" class="mx-auto">
+        <source [src]="source" type="audio/mpeg" />
+      </audio>
+    </ng-container>
+  </ng-container>
+  <button matButton (click)="showMore = true" *ngIf="!showMore">
+    mehr hören? kostenlos...
+  </button>
+</div>
