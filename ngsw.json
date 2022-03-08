@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1646731171089,
+  "timestamp": 1646731579822,
   "index": "/gpz/index.html",
   "assetGroups": [
     {
@@ -13,11 +13,11 @@
       "urls": [
         "/gpz/favicon.ico",
         "/gpz/index.html",
-        "/gpz/main.1bb89e2a2f244c6a.js",
+        "/gpz/main.5b23e648c5aaced8.js",
         "/gpz/manifest.webmanifest",
-        "/gpz/polyfills.864e616dc6985f52.js",
+        "/gpz/polyfills.f295a0f8639bfbde.js",
         "/gpz/runtime.7f9f428549f8b236.js",
-        "/gpz/styles.8ae1bacb22550c80.css"
+        "/gpz/styles.718feb0189563f1c.css"
       ],
       "patterns": []
     },
@@ -74,12 +74,12 @@
     "/gpz/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/gpz/assets/x6zxsc3b.bmp": "72758b4366e2f321f62fef3c227e36606ce797b9",
     "/gpz/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
-    "/gpz/index.html": "3261e4037de96b020d01aef53a3e1c295efdc5f6",
-    "/gpz/main.1bb89e2a2f244c6a.js": "15c22de3dc04d75801b83234e3a14960fc9ee4b1",
+    "/gpz/index.html": "22085676d02cc72c741cf8c9a4e3f713b3b401b3",
+    "/gpz/main.5b23e648c5aaced8.js": "0bde904c1c9e9c19e7128e69c2c66cbccd5ed294",
     "/gpz/manifest.webmanifest": "8497c0a13c06150b132c74558406cf6e4abc7ec6",
-    "/gpz/polyfills.864e616dc6985f52.js": "8c97177dc8efbe946067ebd03e276c864d8efc76",
+    "/gpz/polyfills.f295a0f8639bfbde.js": "6e6e60c1fd0d6a25dc0de466f38c9bb28c81486f",
     "/gpz/runtime.7f9f428549f8b236.js": "1498a060e839da83d2a8ab654543e751582c0172",
-    "/gpz/styles.8ae1bacb22550c80.css": "8adb63ad66fe932ddffe9016f121193881f0dcbc"
+    "/gpz/styles.718feb0189563f1c.css": "95716491cfcc550cf7b2491c9165a2f3f66a8c2d"
   },
   "navigationUrls": [
     {
